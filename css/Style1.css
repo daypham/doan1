@@ -1,0 +1,120 @@
+body {
+    margin: 15px;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    color: #6278ce;
+    font-weight: bold;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #a8c6d5 ;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #6278ce;
+            color: white;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.collapse navbar-collapse{
+    text-align:left;
+}
+.container-fluid img{
+    width: 80px;
+    height:auto;
+    text-align: center;
+}
+
+.me-2{
+    width:200px
+}
+.tp{
+    display: inline;
+}
+
+.timkiem{
+
+}
+
+.container {
+    margin-top: 15px;
+}
+
+.logan p{
+    text-align:center;
+    color:black;
+
+}
+.logan span{
+    font-size:25px;
+}
+
+.img {
+    width: 260px;
+    height: 300px;
+}
+.img2 {
+    width: 260px;
+    height: 300px;
+}
+.center{
+    text-align:center;
+}
+.product-sec1 product-sec2 px-sm-5 px-3{
+    background-color: white;
+}
+.dangnhap {
+width: 600px;
+margin: 10px auto;
+}
+input[type=text], input[type=password] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+   
+.button {
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+}
+   
+.button:hover {
+opacity: 0.8;
+}
+.hienthi {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+else if($tam=='chitiettintuc'){
+    include('includes/chitiettintuc.php');
+}
